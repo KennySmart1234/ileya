@@ -24,7 +24,7 @@ public class BookSuggestionSystemTest{
     
     
     @Test
-    public void testThatBookThatBookTitleThatAlreadyExistCanNotBeAddedAgain(){
+    public void testThatBookThatAlreadyExistCanNotBeAddedAgain(){
     
     ArrayList<String> books = BookSuggestionSystem.bookStore();
     
@@ -60,7 +60,7 @@ public class BookSuggestionSystemTest{
     
            
     @Test
-    public void testThatBookThatBookCanBeRemoved(){
+    public void testThatBookCanBeRemoved(){
     
     ArrayList<String> books = BookSuggestionSystem.bookStore();
     
