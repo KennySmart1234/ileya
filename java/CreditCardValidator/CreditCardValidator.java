@@ -34,6 +34,9 @@ public class CreditCardValidator{
             else if(cardDigit.get(cardDigit.size()-1) == 5){
                return "Master Card"; }
                
+            else if(cardDigit.get(cardDigit.size()-1) == 3 && cardDigit.get(cardDigit.size()-2) == 7){
+               return "American Express Cards"; }
+               
             else if(cardDigit.get(cardDigit.size()-1) == 6)
                return "Discover card";
                
@@ -90,5 +93,8 @@ public class CreditCardValidator{
 
     }   
     
+
+
+
 
 }    
