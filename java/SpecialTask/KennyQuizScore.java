@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 
-public class SpecialTask {
+public class StudentQuizScore {
 
            
     public static void main(String... args) {
